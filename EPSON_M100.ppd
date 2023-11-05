@@ -4,29 +4,28 @@
 *% PPD file for TM Series Linux CUPS Printer Driver.
 
 *FormatVersion: "4.3"
-*FileVersion: "2.0"
-*LanguageVersion: English
+*FileVersion:   "1.0"
+*LanguageVersion: English 
 *LanguageEncoding: ISOLatin1
-*PCFileName: "EPTMBATH.PPD"
-*Manufacturer: "EPSON"
-*Product: "(TM-L100)"
-*ModelName:"EPSON TM-L100"
-*ShortNickName:"TM-L100"
-*NickName: "EPSON TM-L100"
-*PSVersion: "(3010.000) 0"
-*LanguageLevel: "3"
-*ColorDevice: False
-*DefaultColorSpace: Gray
-*FileSystem: False
-*Throughput: "1"
-*LandscapeOrientation: Plus90
-*VariablePaperSize: True
-*TTRasterizer: Type42
-*cupsVersion: 1.2
+*PCFileName:    "EPSON.PPD"
+*Manufacturer:  "Epson"
+*Product:       "(WF-M1030/M1560 Series)"
+*cupsVersion:   1.2
 *cupsManualCopies: True
-*cupsModelNumber: 100
-*cupsFilter: "application/vnd.cups-raster 0 rastertotmtr"
-*cupsLanguages: "en"
+*cupsModelNumber:  1
+*cupsFilter:    "application/vnd.cups-raster 0 /usr/lib/cups/filter/epson_inkjet_printer_filter"
+*ModelName:     "M100 Series"
+*ShortNickName: "EPSON M100"
+*NickName:      "Epson M100 Series - epson-inkjet-printer 1.0.0-1lsb3.2 (Seiko Epson Corporation LSB 3.2)"
+*PSVersion:     "(3010.000) 550"
+*LanguageLevel: "3"
+*ColorDevice:   True
+*DefaultColorSpace: RGB
+*FileSystem:    True
+*Throughput:    "1"
+*LandscapeOrientation: Plus90
+*TTRasterizer:  Type42
+*1284DeviceID: "MFG:EPSON;MDL:M100 Series;DES:EPSON M100 Series;"
 
 
 *% Printer option settings
